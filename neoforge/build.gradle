@@ -40,7 +40,8 @@ neoForge {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 publishMods {
-    displayName = "$mod_name-$version-NeoForge"
+    displayName = "$mod_name-$mod_version-NeoForge"
+    version = mod_version
     type = STABLE
 
     def changelogFile = file('CHANGELOG.md')

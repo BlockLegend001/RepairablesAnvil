@@ -87,7 +87,8 @@ sourceSets.each {
 }
 
 publishMods {
-    displayName = "$mod_name-$version()-Forge"
+    displayName = "$mod_name-$mod_version-Forge"
+    version = mod_version
     type = STABLE
 
     def changelogFile = file('CHANGELOG.md')

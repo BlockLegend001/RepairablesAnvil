@@ -39,7 +39,8 @@ loom {
 }
 
 publishMods {
-    displayName = "$mod_name-$version-Fabric"
+    displayName = "$mod_name-$mod_version-Fabric"
+    version = mod_version
     type = STABLE
 
     def changelogFile = file('CHANGELOG.md')
